@@ -64,7 +64,7 @@ export default function Header({
         </IconButton>
         <div className={classes.spacer} />
         <Typography className={classes.text} >
-            Groww s
+            Groww 
           </Typography>
       {/* space between Brightness icon and Name  */}
       <div className={classes.spacer} />
