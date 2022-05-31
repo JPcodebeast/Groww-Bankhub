@@ -13,7 +13,7 @@ import {blue,deepOrange} from "@material-ui/core/colors";
 import {Link} from 'react-router-dom'
 
 
-const drawerWidth = 260;
+const drawerWidth = 250;
 
 const useStyles = makeStyles((theme) => ({
   drawer: {

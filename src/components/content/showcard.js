@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 
 export default function ImgMediaCard() {
   return (
-    <Card sx={{ minWidth:690 }}>
+    <Card sx={{ minWidth:'100%' }}>
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
         Groww | BankStack

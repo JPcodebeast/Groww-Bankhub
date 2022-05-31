@@ -2,15 +2,15 @@ import React from "react";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
-import LensBlurRoundedIcon from '@mui/icons-material/LensBlurRounded';
+//import LensBlurRoundedIcon from '@mui/icons-material/LensBlurRounded';
 import IconButton from "@material-ui/core/IconButton";
 import Brightness4Icon from "@material-ui/icons/Brightness4";
 import Brightness7Icon from "@material-ui/icons/Brightness7";
 import { makeStyles } from "@material-ui/core/styles";
-import red from "@material-ui/core/colors/red";
-import orange from "@material-ui/core/colors/orange";
-import green from "@material-ui/core/colors/green";
-import {blue} from "@material-ui/core/colors";
+//import red from "@material-ui/core/colors/red";
+//import orange from "@material-ui/core/colors/orange";
+//import green from "@material-ui/core/colors/green";
+//import {blue} from "@material-ui/core/colors";
 
 
 
@@ -35,7 +35,14 @@ const useStyles = makeStyles((theme) => ({
       fontWeight: theme.typography.h1.fontWeight,
       textAlign: "center",
       align: "center"
-  }
+  },
+  menu :{
+    height: theme.typography.h6.fontSize,
+    fontSize: theme.typography.h6.fontSize,
+    fontWeight: theme.typography.h6.fontWeight,
+    textAlign: "center",
+    align: "center"
+}
 
 }));
 
@@ -56,10 +63,14 @@ export default function Header({
         >
 
     <div>
-      <LensBlurRoundedIcon style={{ color: red[500] }} />  
+      {/* <LensBlurRoundedIcon style={{ color: red[500] }} />  
       <LensBlurRoundedIcon style={{ color: orange[500] }} />
       <LensBlurRoundedIcon style={{ color: green[500] }} />
-      <LensBlurRoundedIcon style={{ color: blue[500] }} />
+      <LensBlurRoundedIcon style={{ color: blue[500] }} /> */}
+      <Typography className={classes.menu} >
+           Dashboard Menu 
+          </Typography>
+      
     </div>
         </IconButton>
         <div className={classes.spacer} />
