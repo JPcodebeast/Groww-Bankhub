@@ -64,7 +64,7 @@ export default function Header({
         </IconButton>
         <div className={classes.spacer} />
         <Typography className={classes.text} >
-            Bank Hub
+            Groww s
           </Typography>
       {/* space between Brightness icon and Name  */}
       <div className={classes.spacer} />
